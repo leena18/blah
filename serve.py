@@ -41,7 +41,7 @@ app = FastAPI(
 # Add CORS middleware to allow requests from any origin
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://llm-model-new.streamlit.app/"],  # Adjust to restrict access to specific origins if needed
+    allow_origins=["https://clientpy-gy86qtr6awcwbdr7kyqs52.streamlit.app/"],  # Adjust to restrict access to specific origins if needed
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
