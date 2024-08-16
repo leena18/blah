@@ -6,5 +6,6 @@ langchain_groq
 langchain_core
 langserve
 python-dotenv
+pydantic==1.10.13
 streamlit
 sse_starlette
